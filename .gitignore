@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+/**/Logs
+/**/bin
+/**/obj
+/**/node_modules
+/**/dist
+/**/*.csproj.user

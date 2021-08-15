@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C48FFD0C-1100-4BBA-8B19-D8371A222547}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{05CE5257-FD86-4B92-B0F0-52ED8A6F4D90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{28FF84EA-6217-4EFE-8B82-3F65B491EC03}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Chat.VuejsApp", "src\Presentation\Chat.VuejsApp\Chat.VuejsApp.njsproj", "{C0EF4860-CCF7-48A0-BA38-A1CA5C39D25F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API", "src\Services\User.API\User.API.csproj", "{6D0BD552-E774-419C-9231-FD4D6FDFA836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB6BE8C1-F921-44BB-A4EC-D6D678595202}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		docker-compose.override.yml = docker-compose.override.yml
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0EF4860-CCF7-48A0-BA38-A1CA5C39D25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EF4860-CCF7-48A0-BA38-A1CA5C39D25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EF4860-CCF7-48A0-BA38-A1CA5C39D25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EF4860-CCF7-48A0-BA38-A1CA5C39D25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0BD552-E774-419C-9231-FD4D6FDFA836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0BD552-E774-419C-9231-FD4D6FDFA836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0BD552-E774-419C-9231-FD4D6FDFA836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0BD552-E774-419C-9231-FD4D6FDFA836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05CE5257-FD86-4B92-B0F0-52ED8A6F4D90} = {C48FFD0C-1100-4BBA-8B19-D8371A222547}
+		{28FF84EA-6217-4EFE-8B82-3F65B491EC03} = {C48FFD0C-1100-4BBA-8B19-D8371A222547}
+		{C0EF4860-CCF7-48A0-BA38-A1CA5C39D25F} = {28FF84EA-6217-4EFE-8B82-3F65B491EC03}
+		{6D0BD552-E774-419C-9231-FD4D6FDFA836} = {05CE5257-FD86-4B92-B0F0-52ED8A6F4D90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5655F63-DC4C-4551-AB89-80686A67BB7C}
+	EndGlobalSection
+EndGlobal
